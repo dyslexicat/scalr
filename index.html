@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Scalr</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="showcase">
+      <h1>Scalr</h1>
+      <p>I was having trouble figuring out which notes were in certain scales so I made this tool.
+        Choose the scale you want first then pick a root note, and Scalr will show you which notes are in that scale!
+      </p>
+    </div>
+    <div class="piano">
+      <ul id="set">
+        <li class="white c"></li>
+        <li class="black cs"></li>
+        <li class="white d"></li>
+        <li class="black ds"></li>
+        <li class="white e"></li>
+        <li class="white f"></li>
+        <li class="black fs"></li>
+        <li class="white g"></li>
+        <li class="black gs"></li>
+        <li class="white a"></li>
+      	<li class="black as"></li>
+      	<li class="white b"></li>
+        <li class="white c"></li>
+        <li class="black cs"></li>
+        <li class="white d"></li>
+        <li class="black ds"></li>
+        <li class="white e"></li>
+        <li class="white f"></li>
+        <li class="black fs"></li>
+        <li class="white g"></li>
+        <li class="black gs"></li>
+        <li class="white a"></li>
+        <li class="black as"></li>
+        <li class="white b"></li>
+      </ul>
+    </div>
+    <div class="currentScale">
+    </div>
+    <div class="scales">
+      <div id="hepta">
+        <h1>Heptatonic Scales</h1>
+        <ul>
+          <li><a class="button" id="ion">Ionian (Major)</a></li>
+          <li><a class="button" id="dor">Dorian</a></li>
+          <li><a class="button" id="phyr">Phrygian</a></li>
+          <li><a class="button" id="lyd">Lydian</a></li>
+          <li><a class="button" id="mixo">Mixolydian</a></li>
+          <li><a class="button" id= "aeol">Aeolian (Minor)</a></li>
+          <li><a class="button" id="loc">Locrian</a></li>
+          <li><a class="button" id="mma">Melodic Minor Ascending</a></li>
+          <li><a class="button" id="mmd">Melodic Minor Descending</a></li>
+          <li><a class="button" id="harmd">Harmonic Minor</a></li>
+        </ul>
+      </div>
+      <div id="hexa">
+        <h1>Hexatonic Scales</h1>
+        <ul>
+          <li><a class="button" id="wtone">Whole Tone</a></li>
+          <li><a class="button" id="aug">Augmented</a></li>
+          <li><a class="button" id="prom">Prometheus</a></li>
+          <li><a class="button" id="blue">Blues</a></li>
+        </ul>
+      </div>
+      <div id="penta">
+        <h1>Pentatonic Scales</h1>
+        <ul>
+          <li><a class="button" id="majp">Major Pentatonic</a></li>
+          <li><a class="button" id="minp">Minor Pentatonic</a></li>
+          <li><a class="button" id="egypt">Egyptian</a></li>
+          <li><a class="button" id="bluemaj">Blues Major</a></li>
+          <li><a class="button" id="bluemin">Blues Minor</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
