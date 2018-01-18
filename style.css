@@ -89,8 +89,10 @@ div.piano li {
 	margin-bottom: 2em;
 }
 
-.button {
-	border: 2px, solid, grey;
+.button:hover {
+	background-color: #41337A;
+	border-radius: 30px;
+	padding: 0 1em;
 }
 
 /* set negative margins so that the white keys properly align with the keyboard */
@@ -100,6 +102,12 @@ div.piano li {
 
 .currentScale {
 	font-size: 3em;
+}
+
+.currentScale p {
+	background-color: #41337A;
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
 }
 
 div.scales li {
